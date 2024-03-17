@@ -1,0 +1,28 @@
+(base) iriyamatsukasa@I-TsMacmini ~ % cd /Users/iriyamatsukasa/Desktop/lesson
+(base) iriyamatsukasa@I-TsMacmini lesson % mkdir git_challenge
+(base) iriyamatsukasa@I-TsMacmini lesson % cd git_challenge
+(base) iriyamatsukasa@I-TsMacmini git_challenge % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/iriyamatsukasa/Desktop/lesson/git_challenge/.git/
+(base) iriyamatsukasa@I-TsMacmini git_challenge % touch hello_world.txt
+(base) iriyamatsukasa@I-TsMacmini git_challenge % git add hello_world.txt
+(base) iriyamatsukasa@I-TsMacmini git_challenge % git commit -m "hello_world.txtを追加" 
+[master (root-commit) 592f603] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+(base) iriyamatsukasa@I-TsMacmini git_challenge % git add hello_world.txt               
+(base) iriyamatsukasa@I-TsMacmini git_challenge % git commit -m "日本語訳を追加"　 
+[master 02657bc] 日本語訳を追加　
+ 1 file changed, 1 insertion(+)
+(base) iriyamatsukasa@I-TsMacmini git_challenge % git log --oneline
+02657bc (HEAD -> master) 日本語訳を追加　
+592f603 hello_world.txtを追加
